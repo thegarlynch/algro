@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import com.algro.resume.R
-import com.algro.resume.activity.AbstractActivity
+import com.algro.resume.helper.activity.AbstractActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
