@@ -1,14 +1,14 @@
 package com.algro.resume.presenter.core
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import com.algro.resume.R
+import com.algro.resume.activity.AbstractActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity(R.layout.main) {
+class MainActivity : AbstractActivity(R.layout.main) {
 
     lateinit var navController: NavController
 

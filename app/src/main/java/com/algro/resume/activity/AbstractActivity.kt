@@ -13,7 +13,7 @@ import io.reactivex.rxjava3.disposables.Disposable
  *
  *  Is used all over application to enable keyboard dismissal
  *  Don't forget to also used
- *  @see com.ibima.elearning.helper.view.FocusedScrollView
+ *  @see com.algro.resume.helper.view.FocusedScrollView
  *
  *  Also contains logic for auto disposal of Rx Disposable [autoDispose]
  */
