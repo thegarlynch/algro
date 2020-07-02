@@ -51,7 +51,7 @@ class MemeFrontAdapter @Inject constructor(private val navController : NavContro
     companion object {
 
         internal val requestOptions = RequestOptions()
-            .placeholder(R.drawable.placeholder)
+            .placeholder(R.drawable.placeholder_small)
             .centerCrop()
             .diskCacheStrategy(DiskCacheStrategy.ALL)
 
