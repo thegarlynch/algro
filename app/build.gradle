@@ -78,6 +78,12 @@ dependencies {
     // Three Ten ABP (Date porting)
     implementation 'com.jakewharton.threetenabp:threetenabp:1.2.3'
 
+    // ImagePicker
+    implementation 'com.github.maayyaannkk:ImagePicker:1.0.4'
+
+    // Inline Activity Result
+    implementation 'com.github.florent37:inline-activity-result-kotlin:1.0.3'
+
     // RxJava
     implementation 'io.reactivex.rxjava3:rxjava:3.0.3'
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
