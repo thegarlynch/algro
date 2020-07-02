@@ -1,4 +1,4 @@
-package com.algro.resume.presenter.front
+package com.algro.resume.view.front
 
 import com.algro.resume.helper.fragment.AbstractFragment
 import dagger.hilt.android.AndroidEntryPoint

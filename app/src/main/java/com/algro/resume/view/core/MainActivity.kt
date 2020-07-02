@@ -1,4 +1,4 @@
-package com.algro.resume.presenter.core
+package com.algro.resume.view.core
 
 import android.os.Bundle
 import androidx.navigation.NavController

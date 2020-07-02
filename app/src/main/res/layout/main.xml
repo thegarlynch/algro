@@ -9,5 +9,5 @@
     android:id="@+id/main.navhost"
     app:defaultNavHost="true"
     app:navGraph="@navigation/main_nav_graph"
-    tools:context=".presenter.core.MainActivity"
+    tools:context=".view.core.MainActivity"
     tools:ignore="FragmentTagUsage" />

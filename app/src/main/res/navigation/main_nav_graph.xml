@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/frontFragment"
-        android:name="com.algro.resume.presenter.front.FrontFragment"
+        android:name="com.algro.resume.view.front.FrontFragment"
         android:label="FrontFragment" />
 
 </navigation>
