@@ -1,4 +1,4 @@
-package com.algro.resume.fragment
+package com.algro.resume.helper.fragment
 
 import android.os.Bundle
 import androidx.annotation.CallSuper

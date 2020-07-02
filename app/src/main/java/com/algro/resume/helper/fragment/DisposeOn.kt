@@ -1,4 +1,4 @@
-package com.algro.resume.fragment
+package com.algro.resume.helper.fragment
 
 
 enum class DisposeOn {
