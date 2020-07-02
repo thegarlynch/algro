@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:maxWidth="335dp"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/prompt.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/avenir_heavy"
+        android:text="Save confirmation"
+        />
+
+    <EditText
+        android:id="@+id/prompt.input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/prompt.title"
+        android:layout_marginTop="17dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prompt.input"
+        android:layout_marginTop="30dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/prompt.no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:fontFamily="@font/helvetica_neue"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Cancel"
+            />
+
+        <TextView
+            android:id="@+id/prompt.yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:fontFamily="@font/helvetica_neue"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
