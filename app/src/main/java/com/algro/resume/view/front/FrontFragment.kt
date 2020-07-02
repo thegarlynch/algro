@@ -10,9 +10,12 @@ import com.algro.resume.helper.viewmodel.viewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.front.*
 import kotlinx.coroutines.runBlocking
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class FrontFragment : AbstractFragment(R.layout.front) {
+
+    @Inject lateinit var adapter: MemeFrontAdapter
 
     private val viewModel by viewModel<FrontViewModel>()
 
@@ -23,8 +26,6 @@ class FrontFragment : AbstractFragment(R.layout.front) {
          *  TODO : Extend [GridLayoutManager] and change it's [GridLayoutManager.generateDefaultLayoutParams]
          */
         front_memes.layoutManager = GridLayoutManager(requireContext(), 3)
-
-        val adapter = MemeFrontAdapter()
 
         /**
          *  TODO : Add Item Decoration to [front_memes]
