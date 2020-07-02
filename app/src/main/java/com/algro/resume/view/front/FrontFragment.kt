@@ -18,8 +18,17 @@ class FrontFragment : AbstractFragment(R.layout.front) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        /**
+         *  TODO : Extend [GridLayoutManager] and change it's [GridLayoutManager.generateDefaultLayoutParams]
+         */
         front_memes.layoutManager = GridLayoutManager(requireContext(), 3)
+
         val adapter = MemeFrontAdapter()
+
+        /**
+         *  TODO : Add Item Decoration to [front_memes]
+         */
         front_memes.adapter = adapter
 
         viewModel.memes.observe(viewLifecycleOwner){

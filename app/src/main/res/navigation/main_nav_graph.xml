@@ -7,6 +7,19 @@
     <fragment
         android:id="@+id/frontFragment"
         android:name="com.algro.resume.view.front.FrontFragment"
-        android:label="FrontFragment" />
+        android:label="FrontFragment" >
+        <action
+            android:id="@+id/open"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.algro.resume.view.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="meme"
+            app:argType="com.algro.resume.domain.model.Meme" />
+    </fragment>
 
 </navigation>
