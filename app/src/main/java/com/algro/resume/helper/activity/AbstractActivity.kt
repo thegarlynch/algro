@@ -1,4 +1,4 @@
-package com.algro.resume.activity
+package com.algro.resume.helper.activity
 
 import android.os.Bundle
 import android.view.View

@@ -1,4 +1,4 @@
-package com.algro.resume.activity
+package com.algro.resume.helper.activity
 
 enum class DisposeOn {
 
@@ -10,7 +10,7 @@ enum class DisposeOn {
     DESTROYED,
 
     /**
-     *  Default DisposeOn Mode @see [AbstractFragment.autoDispose]
+     *  Default DisposeOn Mode @see [AbstractActivity.autoDispose]
      *  Will disposed when [AbstractActivity.onStop] is called
      *
      *  @see [AbstractActivity.onStop]
